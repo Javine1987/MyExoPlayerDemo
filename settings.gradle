@@ -1,0 +1,2 @@
+include ':demo-jk', ':demo-gl'
+rootProject.name='MyExoPlayerDemo'
