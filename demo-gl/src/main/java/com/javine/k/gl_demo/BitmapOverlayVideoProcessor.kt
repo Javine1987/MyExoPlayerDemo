@@ -23,4 +23,8 @@ class BitmapOverlayVideoProcessor(var context: Context) : VideoProcessingGLSurfa
     override fun setSurfaceSize(width: Int, height: Int): Void {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
+
+    override fun draw(frameTexture: Int, frameTimestampUs: Long) {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
 }
