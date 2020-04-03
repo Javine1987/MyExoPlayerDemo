@@ -31,8 +31,8 @@ class VideoProcessingGLSurfaceView(context: Context?) : GLSurfaceView(context) {
     private lateinit var mHandler: Handler
 
     interface VideoProcessor {
-        fun initialize() : Void
-        fun setSurfaceSize(width:Int, height:Int) : Void
+        fun initialize()
+        fun setSurfaceSize(width:Int, height:Int)
         fun draw(frameTexture: Int, frameTimestampUs: Long)
     }
 

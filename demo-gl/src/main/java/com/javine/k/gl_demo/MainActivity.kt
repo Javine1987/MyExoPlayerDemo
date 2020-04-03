@@ -1,5 +1,6 @@
 package com.javine.k.gl_demo
 
+import android.app.Activity
 import android.media.MediaDataSource
 import android.net.Uri
 import android.os.Build
@@ -20,7 +21,7 @@ import com.google.android.exoplayer2.util.EventLogger
 import com.google.android.exoplayer2.util.Util
 import java.lang.IllegalStateException
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : Activity() {
 
     private val DEFAULT_MEDIA_URI =
         "https://storage.googleapis.com/exoplayer-test-media-1/mkv/android-screens-lavf-56.36.100-aac-avc-main-1280x720.mkv"
