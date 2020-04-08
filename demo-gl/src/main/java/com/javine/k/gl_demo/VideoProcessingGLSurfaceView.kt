@@ -133,6 +133,7 @@ class VideoProcessingGLSurfaceView(context: Context?) : GLSurfaceView(context) {
             clearVideoSurface(mSurface)
             clearVideoFrameMetadataListener(mRenderer)
         }
+        mVideoComponent = videoComponent
 
         videoComponent?.run {
             setVideoSurface(mSurface)

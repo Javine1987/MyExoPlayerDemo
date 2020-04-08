@@ -41,4 +41,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
 
     implementation 'com.google.android.exoplayer:exoplayer:2.11.3'
+    implementation 'jp.co.cyberagent.android:gpuimage:2.0.4'
 }
